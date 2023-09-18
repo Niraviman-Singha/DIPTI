@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DIPTI</string>
+    <string name="dipti1">BOOST UP YOUR CAREER\n</string>
+    <string name="welcome">Welcome to DIPTI, your one-stop institute for training and development. We offer a wide range of courses and programs designed to help you improve your skills and knowledge, advance your career, and achieve your personal and professional goals, since 2004.\n</string>
+    <string name="facilities">What Facilities Await at DIPTI?\n</string>
+    <string name="all_facilities">BTEB, NSDA and NTVQF Certifications.\n\nLearning by State-Of-The-Art Methodology.\n\nFully International Standard Lab/Class  Room.\n\nHighly Qualified and Vendor Certified Trainer.\n\nScholarship Facility.\n\nInternship/Placement Facility.\n\nWeekend/Evening Shift Class.\n\nSpecial Batch for Special Requirement.\n\nCustomize/Group Training Facility and Many More.\n</string>
+    <string name="course1">PROFESSIONAL COURSES</string>
+    <string name="course2">Diploma Courses\n\nCertificate Courses\n\nBTEB Trade Courses\n\nSpecial Course for Foreign Students\n\nBM College\n\nInterpersonal Communication Skills\n\nERP Training\n\n</string>
+    <string name="course3">SPECIAL COURSES</string>
+    <string name="course4">Industrial Attachment for Polytechnic Students\n\nFreelancing with Graphic Design\n\nSoftware and Apps Development\n\nCBTA under NTVQF\n\nCloud Computing Courses\n\nCyber Security Courses\n\n</string>
+    <string name="about1">It is fact that, Bangladesh has huge workforces and it will be a great benefit for Bangladesh economy if quality and standard professionals can be developed through comprehensive real life practical job-oriented training. Even today, most of the industries in Bangladesh rely on foreign workers for their technological consultation and also for implementation; which is slowing down our economic growth in this emerging world. It, therefore, has become very essential to develop skilled manpower in order to promote more businesses to attract foreign investment even produce quality products. This question encouraged us to establish Daffodil International Professional Training Institute (DIPTI). So, DIPTI will work on this concerned field to help to the educated but unemployed; also, to help to the professionals to develop their professionalism and establish their career.</string>
+
+
+
+
+</resources>

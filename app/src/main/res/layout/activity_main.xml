@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_color_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/teamIV"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/dipti">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/boostTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="BOOST UP YOUR CAREER"
+        android:textColor="#2E2903"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/welcomeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="Welcome"
+        android:textColor="#673AB7"
+        android:textSize="60sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/location">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/addressTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/aladin"
+            android:text=" Daffodil Plaza, 4/2, Sobhanbag\n Mirpur Road, Dhaka-1207"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/baseline_contact_phone_24">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/phoneTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="01713-493233\n01713-493288"
+            android:layout_marginLeft="20dp"
+            android:textColor="#50490E"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

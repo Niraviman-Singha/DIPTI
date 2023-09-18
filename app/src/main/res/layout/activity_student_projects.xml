@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_color_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".StudentProjects">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Student Projects"
+        android:textAlignment="center"
+        android:textColor="#C63A6A"
+        android:textSize="60sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/urban">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#9A2828"
+                android:text="An Attractive Urban Visualization">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="Students Name: Faisal Iqbal">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/maggi_noodles">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#9A2828"
+                android:text="3D-Add-for-Maggi-Noodles">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="Students Name: Mr. Md. Abdur Rahim\nBatch: 18th Batch">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ant">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#9A2828"
+                android:text="3D- Animation-The-Big-Ant">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="Students Name: Masud Rana\nBatch No: 59">
+
+            </TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

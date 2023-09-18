@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/sea_sky_gradient"
+    android:orientation="vertical"
+    tools:context=".AdmissionForm">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Submitted Form"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#D50909">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="#3C2E05"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/phoneTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Phone"
+        android:textAlignment="center"
+        android:textColor="#3C2E05"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="#3C2E05"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/courseTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Course"
+        android:textAlignment="center"
+        android:textColor="#3C2E05"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/addressTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Address"
+        android:textAlignment="center"
+        android:textColor="#3C2E05"
+        android:textSize="25sp">
+
+    </TextView>
+
+</LinearLayout>

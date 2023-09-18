@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/blue_color_background"
+    tools:context=".Academic">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Academic"
+        android:textColor="#C63A6A"
+        android:textSize="60sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#DC5C34"
+        android:text="Class Routine"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFEB3B"
+        app:strokeWidth="3dp">
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        app:strokeWidth="3dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#9C27B0"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:strokeColor="#F64912"
+        app:cornerRadius="10dp"
+        android:text="Notice Board">
+
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Result"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#4CAF50"
+        android:textSize="35sp"
+        app:strokeColor="#6D2FDC"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:strokeWidth="3dp">
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:strokeWidth="3dp"
+        android:textSize="35sp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#B6C14B"
+        app:strokeColor="#CF3368"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        android:text="Smart Support">
+
+    </Button>
+
+</LinearLayout>

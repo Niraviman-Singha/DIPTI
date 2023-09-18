@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/about"
+        android:title="About">
+
+    </item>
+    <item
+        android:id="@+id/course"
+        android:title="Course"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/academic"
+        android:title="Academic">
+
+    </item>
+
+    <item
+        android:id="@+id/project"
+        android:title="Student Projects">
+
+    </item>
+
+    <item
+        android:id="@+id/admission"
+        android:title="Online Admission">
+
+    </item>
+
+</menu>

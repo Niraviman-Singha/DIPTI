@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/blue_color_background"
+    tools:context=".OnlineAdmission">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="Online Admission Form">
+
+    </TextView>
+
+
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:hint="Full name"
+        android:inputType="text"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/phoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:hint="Mobile number"
+        android:inputType="phone"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/courseET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:hint="Course Name"
+        android:inputType="text"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/addressET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:hint="Address"
+        android:inputType="text"
+        android:textColorHint="#136861">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/SubmitBTN"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#CED681"
+        android:padding="10dp"
+        android:text="Submit"
+        android:textColor="#0B185A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:strokeColor="#C54949"
+        app:strokeWidth="3dp">
+
+    </Button>
+
+
+
+</LinearLayout>
